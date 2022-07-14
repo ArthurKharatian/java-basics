@@ -1,8 +1,8 @@
 package org.itmo.java.lesson12.builder;
 
-public class FirstHouse extends Builder {
+public class SecondHouse extends Builder{
 
-    public FirstHouse() {
+    public SecondHouse() {
         house = new House();
     }
 
@@ -11,7 +11,6 @@ public class FirstHouse extends Builder {
         house.buildBase();
         house.buildWalls();
         house.buildFloors();
-        house.buildRoof();
         return house;
     }
 }

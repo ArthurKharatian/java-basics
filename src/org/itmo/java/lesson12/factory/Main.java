@@ -10,7 +10,7 @@ public class Main {
 //      converter2.convertFile();
 //      converter3.convertFile();
 
-        DocumentConverterFactory documentConverterFactory = createConverterFactoryByFormat("qwe");
+        DocumentConverterFactory documentConverterFactory = createConverterFactoryByFormat("docx");
         DocumentConverter converter = documentConverterFactory.createConverter();
         converter.convertFile();
 
@@ -23,7 +23,7 @@ public class Main {
         } else if (format.equalsIgnoreCase("pdf")) {
             return new PdfConverterFactory();
         } else if (format.equalsIgnoreCase("docx")) {
-            return new PdfConverterFactory();
+            return new DocxConverterFactory();
         } else {
             throw new RuntimeException("Wrong format: " + format);
         }

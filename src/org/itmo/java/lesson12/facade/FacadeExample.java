@@ -6,8 +6,8 @@ public class FacadeExample {
 //        power.on();
 //
 //        FlashDrive flashDrive = new FlashDrive();
-////        flashDrive.load();
-//        flashDrive.unload();
+//        flashDrive.load();
+////        flashDrive.unload();
 //
 //        SSD ssd = new SSD();
 //        ssd.copyFromFlash(flashDrive);
