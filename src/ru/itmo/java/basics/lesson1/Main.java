@@ -120,5 +120,5 @@ public class Main {
         }
     }
 
-  // Hello from test branch
+  // Good comment
 }
