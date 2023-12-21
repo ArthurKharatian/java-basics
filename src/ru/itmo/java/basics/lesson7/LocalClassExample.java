@@ -5,6 +5,7 @@ public class LocalClassExample {
     static String regex = "\\D";
 
     public static void validatePhoneNumber(String num1, String num2) {
+
         final int numberLength = 10;
 
         class PhoneNumber {
