@@ -6,4 +6,5 @@ public interface SomeInterface {
 
     String name();
 
+
 }
