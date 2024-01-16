@@ -30,6 +30,11 @@ public class Car {
         this.price = price;
     }
 
+    public Car(String brand, Boolean isNew) {
+        this.brand = brand;
+        this.isNew = isNew;
+    }
+
     public Car(String brand, Color color) {
         this.brand = brand;
         this.color = color;
