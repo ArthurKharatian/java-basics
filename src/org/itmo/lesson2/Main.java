@@ -58,4 +58,8 @@ public class Main {
     public void overloadedMethod(Long l) {
 
     }
+
+    public void overloadedMethod(Color color, Color color2) {
+
+    }
 }
