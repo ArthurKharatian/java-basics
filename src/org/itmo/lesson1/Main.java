@@ -1,5 +1,7 @@
 package org.itmo.lesson1;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        ItmoMain  -- Pascal case
@@ -94,13 +96,20 @@ public class Main {
 //        switcher(20);
 //        switcher(100);
 
-        String s1 = switcher2(10);
-        String s2 = switcher2(20);
-        String s3 = switcher2(100);
+//        String s1 = switcher2(10);
+//        String s2 = switcher2(20);
+//        String s3 = switcher2(100);
+//
+//        System.out.println(s1);
+//        System.out.println(s2);
+//        System.out.println(s3);
 
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(s3);
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        String str = scanner.next();
+
+        System.out.println(num);
+        System.out.println(str);
     }
 
 
