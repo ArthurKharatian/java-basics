@@ -8,4 +8,8 @@ public class CarService {
 
         return car.getPrice() + servicePrice;
     }
+
+    public void someMethod() {
+
+    }
 }
