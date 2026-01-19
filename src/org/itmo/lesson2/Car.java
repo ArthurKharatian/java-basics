@@ -66,11 +66,11 @@ public class Car {
         this.engineCapacity = engineCapacity;
     }
 
-    public Boolean getNew() {
+    public Boolean getIsNew() {
         return isNew;
     }
 
-    public void setNew(Boolean isNew) {
+    public void setIsNew(Boolean isNew) {
         this.isNew = isNew;
     }
 
