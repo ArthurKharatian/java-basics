@@ -1,8 +1,10 @@
-package org.itmo.lesson2;
+package org.itmo.lesson6;
+
+import org.itmo.lesson2.Color;
 
 import java.util.Objects;
 
-public class Car {
+public class Car implements Moveable {
     private String brand;
     private String model;
     private Integer seatPlace;
@@ -124,5 +126,15 @@ public class Car {
                 ", doorsCount=" + doorsCount +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public void printTransportInfo() {
+        System.out.println(transportName());
+    }
+
+    @Override
+    public String transportName() {
+        return "Lada";
     }
 }
