@@ -7,7 +7,7 @@ public class Parent {
         this.name = name;
     }
 
-     protected void print() {
+     public void print() {
         System.out.println("Method from " + this.getClass().getSimpleName() + " class");
     }
 }
